@@ -1,0 +1,758 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>&quot;Librería Grafica&quot;: Referencia del Archivo include/ventanaGrafica.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Generado por Doxygen 1.7.2 -->
+<div class="navigation" id="top">
+  <div class="tabs">
+    <ul class="tablist">
+      <li><a href="main.html"><span>Página&#160;principal</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+    </ul>
+  </div>
+  <div class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#enum-members">Enumeraciones</a> &#124;
+<a href="#func-members">Funciones</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle">
+<h1>Referencia del Archivo include/ventanaGrafica.h</h1>  </div>
+</div>
+<div class="contents">
+
+<p>Librería de funciones para gestionar una ventana/lienzo en el que pintar elementos básicos.  
+<a href="#_details">Más...</a></p>
+
+<p><a href="ventana_grafica_8h_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="enum-members"></a>
+Enumeraciones</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffe">VGColores</a> { <br/>
+&#160;&#160;<a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffeab43a61de73c18fc8ff0445f1b62f5024">VGBlanco</a>, 
+<a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffea1a4183f1e756e85d56073b42698b2a2b">VGRojo</a>, 
+<a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffea2cba1f1c5f3a14c5e6e3ad5f1c7bfd91">VGVerde</a>, 
+<a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffeab3373a3f75dafead435784e7150161f4">VGAzul</a>, 
+<br/>
+&#160;&#160;<a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffea67ad4a48122d31a3f6f37b1b621d4de8">VGNegro</a>
+<br/>
+ }</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight"><p>Tipo VGColores: enumerado de los colores disponibles en la librería. </p>
+ <a href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffe">Más...</a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="func-members"></a>
+Funciones</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#adf8af685033a811a6d6314f2f43eaaad">vgInit</a> (bool mostrarEjes)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicialización de la ventana gráfica.  <a href="#adf8af685033a811a6d6314f2f43eaaad"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#ab91a0c0b284999b6b0a66b037c4eb13e">vgEnd</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Desactiva la ventana gráfica.  <a href="#ab91a0c0b284999b6b0a66b037c4eb13e"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#ac3b91c87139e0ae8c065f2ac30ddf5a5">vgClear</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Limpia/Elimina el contenido actual de la ventana gráfica.  <a href="#ac3b91c87139e0ae8c065f2ac30ddf5a5"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#ad23f15a94678f1c214b5be8bde337f5f">vgLine</a> (double x1, double y1, double x2, double y2)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Pinta un segmento entre los puntos (x1, y1) e (x2, y2)  <a href="#ad23f15a94678f1c214b5be8bde337f5f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#ad000a822c53a7855a6b3047b761dbba2">vgPoint</a> (double x, double y)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Pinta un punto en coordenadas (x, y)  <a href="#ad000a822c53a7855a6b3047b761dbba2"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#ad18128f2447d28f85832669e0caaba36">vgPoints</a> (double puntos[<a class="el" href="ventana_grafica_8h.html#aa06ac167abee934f8096892e58c00d05">VGDA</a>], int numPuntos)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Pinta un array de puntos.  <a href="#ad18128f2447d28f85832669e0caaba36"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a2e895398f05132e8adb8282d17309d53">vgLines</a> (double puntos[<a class="el" href="ventana_grafica_8h.html#aa06ac167abee934f8096892e58c00d05">VGDA</a>], int numPuntos)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Pinta una secuencia de segmentos dados en un array de puntos.  <a href="#a2e895398f05132e8adb8282d17309d53"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a12b5d68a817005488b0a767b245e87d8">vgMatriz</a> (double x, double y, <a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffe">VGColores</a> motivo[<a class="el" href="ventana_grafica_8h.html#a0dfdfc96039e0813771657fdb53d806b">VGDM</a>][<a class="el" href="ventana_grafica_8h.html#a0dfdfc96039e0813771657fdb53d806b">VGDM</a>])</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Pinta un motivo dado por una matriz de VGDM x VGDM colores.  <a href="#a12b5d68a817005488b0a767b245e87d8"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a7e90d3567c3bbd250241dd04e7ba844e">vgPoints</a> (double x, double y, double puntos[<a class="el" href="ventana_grafica_8h.html#aa06ac167abee934f8096892e58c00d05">VGDA</a>], int numPuntos)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Pinta un motivo dado por un array de puntos.  <a href="#a7e90d3567c3bbd250241dd04e7ba844e"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a4301d8f3eb56936808c6da625668650f">vgLines</a> (double x, double y, double puntos[<a class="el" href="ventana_grafica_8h.html#aa06ac167abee934f8096892e58c00d05">VGDA</a>], int numPuntos)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Pinta un motivo dado por una secuencia de segmentos.  <a href="#a4301d8f3eb56936808c6da625668650f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#aaa29b7aa98e03f83668ca87b22cd2180">vgCString</a> (double x, double y, const char cad[])</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Pinta una cadena de caracteres.  <a href="#aaa29b7aa98e03f83668ca87b22cd2180"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a088785ef895aa7a28416fb7e31832cbf">vgColor</a> (<a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffe">VGColores</a> col)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Establece el color utilizado para pintar los elementos gráficos.  <a href="#a088785ef895aa7a28416fb7e31832cbf"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a809ceaa01899a45f15a0db4897d575c7">vgInit</a> (int argc, char *argv[])</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa la ventana gráfica.  <a href="#a809ceaa01899a45f15a0db4897d575c7"></a><br/></td></tr>
+<tr><td colspan="2"><h2><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a952eac791b596a61bba0a133a3bb439f">PI</a> = 3.14159265</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Constante PI.  <a href="#a952eac791b596a61bba0a133a3bb439f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a9d0e2fed8e52b0fa0c460da96d9ec05e">RPG</a> = 0.01745329</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Constante RPG.  <a href="#a9d0e2fed8e52b0fa0c460da96d9ec05e"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a98e95d5529eb0708846ffe79d785387a">VGNUMCOLS</a> = 5</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Constante VGNUMCOLS.  <a href="#a98e95d5529eb0708846ffe79d785387a"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a331836030ec47c34b6da6cd1e0ebc8ff">VGXLEFT</a> = -50</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Constante VGXLEFT.  <a href="#a331836030ec47c34b6da6cd1e0ebc8ff"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a03e1babbb11e34b6be06bf9dd2c742d2">VGXRIGHT</a> = 50</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Constante VGXRIGHT.  <a href="#a03e1babbb11e34b6be06bf9dd2c742d2"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a74e1d89bb76072054a444f6dc1d6f493">VGYTOP</a> = 50</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Constante VGYTOP.  <a href="#a74e1d89bb76072054a444f6dc1d6f493"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a57dc151468f0cb3f1086507f5918f27a">VGYBOT</a> = -50</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Constante VGYBOT.  <a href="#a57dc151468f0cb3f1086507f5918f27a"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#aa06ac167abee934f8096892e58c00d05">VGDA</a> = 200</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Constante VGDA.  <a href="#aa06ac167abee934f8096892e58c00d05"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ventana_grafica_8h.html#a0dfdfc96039e0813771657fdb53d806b">VGDM</a> = 10</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Constante VGDM.  <a href="#a0dfdfc96039e0813771657fdb53d806b"></a><br/></td></tr>
+</table>
+<hr/><a name="_details"></a><h2>Descripción detallada</h2>
+<p>Librería de funciones para gestionar una ventana/lienzo en el que pintar elementos básicos. </p>
+<hr/><h2>Documentación de las enumeraciones</h2>
+<a class="anchor" id="af82ed8385ce1b1313cc52536031c0ffe"></a><!-- doxytag: member="ventanaGrafica.h::VGColores" ref="af82ed8385ce1b1313cc52536031c0ffe" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffe">VGColores</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Tipo VGColores: enumerado de los colores disponibles en la librería. </p>
+<dl><dt><b>Valores de enumeraciones: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="af82ed8385ce1b1313cc52536031c0ffeab43a61de73c18fc8ff0445f1b62f5024"></a><!-- doxytag: member="VGBlanco" ref="af82ed8385ce1b1313cc52536031c0ffeab43a61de73c18fc8ff0445f1b62f5024" args="" -->VGBlanco</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="af82ed8385ce1b1313cc52536031c0ffea1a4183f1e756e85d56073b42698b2a2b"></a><!-- doxytag: member="VGRojo" ref="af82ed8385ce1b1313cc52536031c0ffea1a4183f1e756e85d56073b42698b2a2b" args="" -->VGRojo</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="af82ed8385ce1b1313cc52536031c0ffea2cba1f1c5f3a14c5e6e3ad5f1c7bfd91"></a><!-- doxytag: member="VGVerde" ref="af82ed8385ce1b1313cc52536031c0ffea2cba1f1c5f3a14c5e6e3ad5f1c7bfd91" args="" -->VGVerde</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="af82ed8385ce1b1313cc52536031c0ffeab3373a3f75dafead435784e7150161f4"></a><!-- doxytag: member="VGAzul" ref="af82ed8385ce1b1313cc52536031c0ffeab3373a3f75dafead435784e7150161f4" args="" -->VGAzul</em>&nbsp;</td><td>
+</td></tr>
+<tr><td valign="top"><em><a class="anchor" id="af82ed8385ce1b1313cc52536031c0ffea67ad4a48122d31a3f6f37b1b621d4de8"></a><!-- doxytag: member="VGNegro" ref="af82ed8385ce1b1313cc52536031c0ffea67ad4a48122d31a3f6f37b1b621d4de8" args="" -->VGNegro</em>&nbsp;</td><td>
+</td></tr>
+</table>
+</dd>
+</dl>
+
+</div>
+</div>
+<hr/><h2>Documentación de las funciones</h2>
+<a class="anchor" id="ac3b91c87139e0ae8c065f2ac30ddf5a5"></a><!-- doxytag: member="ventanaGrafica.h::vgClear" ref="ac3b91c87139e0ae8c065f2ac30ddf5a5" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgClear </td>
+          <td>(</td>
+          <td class="paramname">&#160;)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Limpia/Elimina el contenido actual de la ventana gráfica. </p>
+
+</div>
+</div>
+<a class="anchor" id="a088785ef895aa7a28416fb7e31832cbf"></a><!-- doxytag: member="ventanaGrafica.h::vgColor" ref="a088785ef895aa7a28416fb7e31832cbf" args="(VGColores col)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffe">VGColores</a>&#160;</td>
+          <td class="paramname"> <em>col</em>&#160;)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Establece el color utilizado para pintar los elementos gráficos. </p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">col</td><td>Color utilizado para pintar los elementos gráficos. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aaa29b7aa98e03f83668ca87b22cd2180"></a><!-- doxytag: member="ventanaGrafica.h::vgCString" ref="aaa29b7aa98e03f83668ca87b22cd2180" args="(double x, double y, const char cad[])" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgCString </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"> <em>cad</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Pinta una cadena de caracteres. </p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Coordenada del eje x donde se pintará el primer carácter de la cadena. </td></tr>
+    <tr><td class="paramname">y</td><td>Coordenada del eje y donde se pintará el primer carácter de la cadena. </td></tr>
+    <tr><td class="paramname">cad</td><td>Cadena a pintar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab91a0c0b284999b6b0a66b037c4eb13e"></a><!-- doxytag: member="ventanaGrafica.h::vgEnd" ref="ab91a0c0b284999b6b0a66b037c4eb13e" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgEnd </td>
+          <td>(</td>
+          <td class="paramname">&#160;)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Desactiva la ventana gráfica. </p>
+
+</div>
+</div>
+<a class="anchor" id="adf8af685033a811a6d6314f2f43eaaad"></a><!-- doxytag: member="ventanaGrafica.h::vgInit" ref="adf8af685033a811a6d6314f2f43eaaad" args="(bool mostrarEjes)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vgInit </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"> <em>mostrarEjes</em>&#160;)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Inicialización de la ventana gráfica. </p>
+<p>El comportamiento es: </p>
+<ul>
+<li>
+vgInit(true) ventana en blanco con los ejes del sistema de coordenadas. </li>
+<li>
+vgInit(false) ventana en blanco.  </li>
+</ul>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mostrarEjes</td><td>Mostrar los ejes del sistema de coordenadas. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a809ceaa01899a45f15a0db4897d575c7"></a><!-- doxytag: member="ventanaGrafica.h::vgInit" ref="a809ceaa01899a45f15a0db4897d575c7" args="(int argc, char *argv[])" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vgInit </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"> <em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"> <em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Inicializa la ventana gráfica. </p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">argc</td><td>Número de argumentos pasados a la aplicación. </td></tr>
+    <tr><td class="paramname">argv</td><td>Array de parámetros pasados a la aplicación. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad23f15a94678f1c214b5be8bde337f5f"></a><!-- doxytag: member="ventanaGrafica.h::vgLine" ref="ad23f15a94678f1c214b5be8bde337f5f" args="(double x1, double y1, double x2, double y2)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgLine </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>y2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Pinta un segmento entre los puntos (x1, y1) e (x2, y2) </p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x1</td><td>Coordenada x del punto inicial. </td></tr>
+    <tr><td class="paramname">y1</td><td>Coordenada y del punto inicial. </td></tr>
+    <tr><td class="paramname">x2</td><td>Coordenada x del punto destino. </td></tr>
+    <tr><td class="paramname">y2</td><td>Coordenada y del punto destino. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4301d8f3eb56936808c6da625668650f"></a><!-- doxytag: member="ventanaGrafica.h::vgLines" ref="a4301d8f3eb56936808c6da625668650f" args="(double x, double y, double puntos[VGDA], int numPuntos)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgLines </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>puntos</em>[VGDA], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"> <em>numPuntos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Pinta un motivo dado por una secuencia de segmentos. </p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Coordenada del eje x del punto utilizado como origen. </td></tr>
+    <tr><td class="paramname">y</td><td>Coordenada del eje y del punto utilizado como origen. </td></tr>
+    <tr><td class="paramname">puntos</td><td>Array de pares de puntos que definen la lista de segmentos [&lt;(x0, y0), (x1, y1)&gt;, ...]. </td></tr>
+    <tr><td class="paramname">numPuntos</td><td>Número de segmentos. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2e895398f05132e8adb8282d17309d53"></a><!-- doxytag: member="ventanaGrafica.h::vgLines" ref="a2e895398f05132e8adb8282d17309d53" args="(double puntos[VGDA], int numPuntos)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgLines </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>puntos</em>[VGDA], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"> <em>numPuntos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Pinta una secuencia de segmentos dados en un array de puntos. </p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">puntos</td><td>Array de pares de puntos que definen la lista de segmentos [&lt;(x0, y0), (x1, y1)&gt;, ...]. </td></tr>
+    <tr><td class="paramname">numPuntos</td><td>Número de segmentos a pintar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a12b5d68a817005488b0a767b245e87d8"></a><!-- doxytag: member="ventanaGrafica.h::vgMatriz" ref="a12b5d68a817005488b0a767b245e87d8" args="(double x, double y, VGColores motivo[VGDM][VGDM])" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgMatriz </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="ventana_grafica_8h.html#af82ed8385ce1b1313cc52536031c0ffe">VGColores</a>&#160;</td>
+          <td class="paramname"> <em>motivo</em>[VGDM][VGDM]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Pinta un motivo dado por una matriz de VGDM x VGDM colores. </p>
+<p>Esta función se encarga de pintar los puntos (x + c, y + f) del color mat[f][c].</p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Coordenada del eje x de la esquina superior izquierda de la posición en la que el motivo será pintado. </td></tr>
+    <tr><td class="paramname">y</td><td>Coordenada del eje y de la esquina superior izquierda de la posición en la que el motivo será pintado. </td></tr>
+    <tr><td class="paramname">motivo</td><td>Matriz de VGDM x VGDM colores que representa el motivo a pintar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad000a822c53a7855a6b3047b761dbba2"></a><!-- doxytag: member="ventanaGrafica.h::vgPoint" ref="ad000a822c53a7855a6b3047b761dbba2" args="(double x, double y)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgPoint </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Pinta un punto en coordenadas (x, y) </p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Coordenada x del punto. </td></tr>
+    <tr><td class="paramname">y</td><td>Coordenada y del punto. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad18128f2447d28f85832669e0caaba36"></a><!-- doxytag: member="ventanaGrafica.h::vgPoints" ref="ad18128f2447d28f85832669e0caaba36" args="(double puntos[VGDA], int numPuntos)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgPoints </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>puntos</em>[VGDA], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"> <em>numPuntos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Pinta un array de puntos. </p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">puntos</td><td>Array de pares de coordenadas (x, y) a pintar (máximo VGDA/2 puntos). </td></tr>
+    <tr><td class="paramname">numPuntos</td><td>Número de puntos a pintar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7e90d3567c3bbd250241dd04e7ba844e"></a><!-- doxytag: member="ventanaGrafica.h::vgPoints" ref="a7e90d3567c3bbd250241dd04e7ba844e" args="(double x, double y, double puntos[VGDA], int numPuntos)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void vgPoints </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"> <em>puntos</em>[VGDA], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"> <em>numPuntos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Pinta un motivo dado por un array de puntos. </p>
+<dl><dt><b>Parámetros:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Coordenada del eje x del punto utilizado como origen. </td></tr>
+    <tr><td class="paramname">y</td><td>Coordenada del eje y del punto utilizado como origen. </td></tr>
+    <tr><td class="paramname">puntos</td><td>Array de pares de coordenadas (x, y) a pintar (máximo VGDA/2 puntos). </td></tr>
+    <tr><td class="paramname">numPuntos</td><td>Número de puntos a pintar. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/><h2>Documentación de las variables</h2>
+<a class="anchor" id="a952eac791b596a61bba0a133a3bb439f"></a><!-- doxytag: member="ventanaGrafica.h::PI" ref="a952eac791b596a61bba0a133a3bb439f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double <a class="el" href="ventana_grafica_8h.html#a952eac791b596a61bba0a133a3bb439f">PI</a> = 3.14159265</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Constante PI. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9d0e2fed8e52b0fa0c460da96d9ec05e"></a><!-- doxytag: member="ventanaGrafica.h::RPG" ref="a9d0e2fed8e52b0fa0c460da96d9ec05e" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double <a class="el" href="ventana_grafica_8h.html#a9d0e2fed8e52b0fa0c460da96d9ec05e">RPG</a> = 0.01745329</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Constante RPG. </p>
+<p>Radianes por Grado (RPG= PI/180.0). </p>
+
+</div>
+</div>
+<a class="anchor" id="aa06ac167abee934f8096892e58c00d05"></a><!-- doxytag: member="ventanaGrafica.h::VGDA" ref="aa06ac167abee934f8096892e58c00d05" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int <a class="el" href="ventana_grafica_8h.html#aa06ac167abee934f8096892e58c00d05">VGDA</a> = 200</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Constante VGDA. </p>
+<p>Dimensión de los arrays de puntos. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0dfdfc96039e0813771657fdb53d806b"></a><!-- doxytag: member="ventanaGrafica.h::VGDM" ref="a0dfdfc96039e0813771657fdb53d806b" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int <a class="el" href="ventana_grafica_8h.html#a0dfdfc96039e0813771657fdb53d806b">VGDM</a> = 10</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Constante VGDM. </p>
+<p>Dimensión de la matriz de motivos (matriz cuadrada de colores). </p>
+
+</div>
+</div>
+<a class="anchor" id="a98e95d5529eb0708846ffe79d785387a"></a><!-- doxytag: member="ventanaGrafica.h::VGNUMCOLS" ref="a98e95d5529eb0708846ffe79d785387a" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int <a class="el" href="ventana_grafica_8h.html#a98e95d5529eb0708846ffe79d785387a">VGNUMCOLS</a> = 5</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Constante VGNUMCOLS. </p>
+<p>Número de colores de la librería. </p>
+
+</div>
+</div>
+<a class="anchor" id="a331836030ec47c34b6da6cd1e0ebc8ff"></a><!-- doxytag: member="ventanaGrafica.h::VGXLEFT" ref="a331836030ec47c34b6da6cd1e0ebc8ff" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int <a class="el" href="ventana_grafica_8h.html#a331836030ec47c34b6da6cd1e0ebc8ff">VGXLEFT</a> = -50</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Constante VGXLEFT. </p>
+<p>Extremo izquierdo del eje X del sistema de coordenadas de la ventana gráfica ([VGXLEFT, VGXRIGHT]x[VGYBOT, VGYTOP]). </p>
+
+</div>
+</div>
+<a class="anchor" id="a03e1babbb11e34b6be06bf9dd2c742d2"></a><!-- doxytag: member="ventanaGrafica.h::VGXRIGHT" ref="a03e1babbb11e34b6be06bf9dd2c742d2" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int <a class="el" href="ventana_grafica_8h.html#a03e1babbb11e34b6be06bf9dd2c742d2">VGXRIGHT</a> = 50</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Constante VGXRIGHT. </p>
+<p>Extremo derecho del eje X del sistema de coordenadas de la ventana gráfica ([VGXLEFT, VGXRIGHT]x[VGYBOT, VGYTOP]). </p>
+
+</div>
+</div>
+<a class="anchor" id="a57dc151468f0cb3f1086507f5918f27a"></a><!-- doxytag: member="ventanaGrafica.h::VGYBOT" ref="a57dc151468f0cb3f1086507f5918f27a" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int <a class="el" href="ventana_grafica_8h.html#a57dc151468f0cb3f1086507f5918f27a">VGYBOT</a> = -50</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Constante VGYBOT. </p>
+<p>Extremo inferior del eje Y del sistema de coordenadas de la ventana gráfica ([VGXLEFT, VGXRIGHT]x[VGYBOT, VGYTOP]). </p>
+
+</div>
+</div>
+<a class="anchor" id="a74e1d89bb76072054a444f6dc1d6f493"></a><!-- doxytag: member="ventanaGrafica.h::VGYTOP" ref="a74e1d89bb76072054a444f6dc1d6f493" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int <a class="el" href="ventana_grafica_8h.html#a74e1d89bb76072054a444f6dc1d6f493">VGYTOP</a> = 50</td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Constante VGYTOP. </p>
+<p>Extremo superior del eje Y del sistema de coordenadas de la ventana gráfica ([VGXLEFT, VGXRIGHT]x[VGYBOT, VGYTOP]). </p>
+
+</div>
+</div>
+</div>
+<hr class="footer"/><address class="footer"><small>Generado el Miércoles, 20 de Octubre de 2010 17:22:19 para "Librería Grafica" por&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.2 </small></address>
+</body>
+</html>

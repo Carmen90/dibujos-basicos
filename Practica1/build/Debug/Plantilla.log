@@ -1,0 +1,30 @@
+﻿Compilación iniciada a las 23/11/2010 23:53:37.
+     1>Proyecto "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\Plantilla.vcxproj" en el nodo 2 (rebuild destinos).
+     1>InitializeBuildStatus:
+         Se creará "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Users\debbie\Desktop\Mis cosas\Uni\IP\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\\" /Fd"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>c:\users\debbie\desktop\mis cosas\uni\ip\fp\practica1 fp\src\main.cpp(10): warning C4100: 'argv' : parámetro formal sin referencia
+     1>c:\users\debbie\desktop\mis cosas\uni\ip\fp\practica1 fp\src\main.cpp(10): warning C4100: 'argc' : parámetro formal sin referencia
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug.exe.embed.manifest.res" "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug_manifest.rc" 
+       Link:
+         C:\Users\debbie\Desktop\Mis cosas\Uni\IP\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\bin\Practica1-Debug.exe" /INCREMENTAL /NOLOGO LibreriaGrafica.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\bin\Practica1-Debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\bin\Practica1-Debug.lib" /MACHINE:X86 "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug.exe.embed.manifest.res"
+         "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\main.obj"
+       Manifest:
+         Se eliminará el archivo "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug.exe.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug.exe.embed.manifest" /manifest "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug.exe.intermediate.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug.exe.embed.manifest.res" "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Users\debbie\Desktop\Mis cosas\Uni\IP\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\bin\Practica1-Debug.exe" /INCREMENTAL /NOLOGO LibreriaGrafica.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\bin\Practica1-Debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\bin\Practica1-Debug.lib" /MACHINE:X86 "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1-Debug.exe.embed.manifest.res"
+         "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\main.obj"
+         Plantilla.vcxproj -> C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\bin\Practica1-Debug.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1.unsuccessfulbuild".
+         Aplicando tarea Touch a "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\build\Debug\Practica1.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\debbie\Desktop\Mis cosas\Uni\IP\FP\Practica1 fp\Plantilla.vcxproj" (rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.69
