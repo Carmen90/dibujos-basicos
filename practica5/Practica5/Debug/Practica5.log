@@ -1,0 +1,31 @@
+﻿Compilación iniciada a las 31/05/2011 0:42:33.
+     1>Proyecto "C:\Users\debbie\Desktop\practica5\Practica5\Practica5.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Debug\Practica5.unsuccessfulbuild".
+       ClCompile:
+         C:\Users\debbie\Desktop\Mis cosas\Uni\IP\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\almacen.cpp ..\lista.cpp ..\practica5.cpp
+         practica5.cpp
+     1>c:\users\debbie\desktop\practica5\practica5.cpp(520): warning C4101: 'producto' : variable local sin referencia
+         lista.cpp
+         almacen.cpp
+         Generando código...
+     1>c:\users\debbie\desktop\practica5\almacen.cpp(158): warning C4700: se utilizó la variable local 'aux' sin inicializar
+     1>c:\users\debbie\desktop\practica5\almacen.cpp(215): warning C4700: se utilizó la variable local 'aux' sin inicializar
+       Link:
+         C:\Users\debbie\Desktop\Mis cosas\Uni\IP\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\debbie\Desktop\practica5\Practica5\Debug\Practica5.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Practica5.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\debbie\Desktop\practica5\Practica5\Debug\Practica5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\debbie\Desktop\practica5\Practica5\Debug\Practica5.lib" /MACHINE:X86 Debug\almacen.obj
+         Debug\fecha.obj
+         Debug\lista.obj
+         Debug\practica5.obj
+         Debug\producto.obj
+         LINK : no se encontró C:\Users\debbie\Desktop\practica5\Practica5\Debug\Practica5.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+         Practica5.vcxproj -> C:\Users\debbie\Desktop\practica5\Practica5\Debug\Practica5.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\debbie\Desktop\practica5\Practica5\Debug\Practica5.exe;#1" /manifest Debug\Practica5.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\Practica5.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\Practica5.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\debbie\Desktop\practica5\Practica5\Practica5.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.36
